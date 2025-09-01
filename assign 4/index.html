@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Redistration Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="index1.html" method="get">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter your email" required>
+
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" required>
+
+            <label for="country">Country</label>
+            <select name="country" id="" required>
+                <option value="">-----choose your country-----</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <label for="skills">Enter your skills</label><br>
+            
+            <label for="html">HTML</label>
+            <input type="radio" name="html" id="html" required><br>
+            <label for="css" name="css" id="css" >CSS</label>
+            <input type="radio" name="css" id="css" required>
+
+            <input type="submit" name="registration" id="registration" value="Registration">
+            <p>Already have an account? <a href="index1.html">Login</a></p>
+
+
+        </form>
+    </div>
+</body>
+</html>
